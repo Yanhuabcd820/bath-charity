@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>畢嘉士基金會</title>
+
+  <meta property="og：url" content="https://homebath.bjorgaas.org.tw">
+  <meta property="og：type" content="website" />
+  <meta property="og：title" content="募一台不載人的車 圓無數洗澡的心願" />
+  <meta property="og：description" content="我們想再募一台車，一台不載人的車。不載人，因為它載的是浴缸，可以幫失能者洗澡。" />
+  <meta property="og：image" content="images/share.jpg" />
+  <meta name="description" content="我們想再募一台車，一台不載人的車。不載人，因為它載的是浴缸，可以幫失能者洗澡。" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/style1-11.css">
+
+  <!-- 工作日常輪播 -->
+  <link rel='stylesheet' href='css/swiper.min.css'>
+  <link rel="stylesheet" href="css/bath-slider.css">
+
+  <!-- 人員介紹輪播 -->
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="css/owl-banner.css">
+</head>
+
+<body class="body">
+  <div class="menuBack"></div>
+  <a href="#option0" class="GoTop">
+    <span class="GoToBar GoToBar1"></span>
+    <span class="GoToBar GoToBar2"></span>
+  </a>
+  <a href="#option3" class="donateNow">
+    <img src="images/donateNow.png" alt="">
+  </a>
+  <nav id="nav-wrap">
+    <div class="nav-inner">
+      <div id="menu" class="">
+        <span class="bar bar1"></span>
+        <span class="bar bar2"></span>
+        <span class="bar bar3"></span>
+      </div>
+      <div class="logo-main">
+        <a href="#option0" class="header-logo"><img src="images/logo.svg"></a>
+      </div>
+      <div class="navigation">
+        <ul>
+          <li class="nav-li"><a href="#option1" class="nav-li-inner">等待中的洗澡心願
+            </a></li>
+          <li class="nav-li"><a href="#option2" class="nav-li-inner">浴見希望</a></li>
+          <li class="nav-li"><a href="#option3" class="nav-li-inner">立即捐款</a></li>
+          <li class="nav-li"><a href="#option4" class="nav-li-inner">關於畢嘉士沐浴團隊</a></li>
+          <li class="nav-li"><a href="#option5" class="nav-li-inner">認識畢嘉士</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div id="app" class="world">
+    <div id="animation_container" class="" style="background-color:rgba(255, 255, 255, 1.00); ">
+      <canvas id="canvas"
+        style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+      <div id="dom_overlay_container"
+        style="pointer-events:none; overflow:hidden; position: absolute; left: 0px; top: 0px; display: block;">
+      </div>
+    </div>
+    <div class="world-content">
+      <h2>我們想再募一台車<br>一台不載人的車</h2>
+      <!-- <p>不載人，因為它載的是浴缸，可以幫失能者洗澡。<br>
+        原鄉的排灣族奶奶，中風後臥床，十年沒碰過水，洗完澡後說她好感動，是那種會想流眼淚的感動；<br>
+        處境相同的青年，身子潛入浴缸的那一刻，豎起了拇指比出「讚」，一個手勢勝過千言萬語。<br>
+        身體的清潔，喚回身為一個人的尊嚴。<br>
+        這是，2014年，我們為屏東引進首輛到宅沐浴車的初心。<br>
+        一次愉悅的澡，一件再平凡不過的事。<br>
+        對許多失能臥床者而言，可能是唯一的願望。<br>
+        我們想再募一台車，讓仍在殷殷期盼的洗澡心願，得以實現。<br>
+      </p> -->
+    </div>
+  </div>
+  <div class="adjust-blank"></div>
+  <div id="option0">
+    <div class="app-deco-content">
+      <h2>我們想再募一台車<br>一台不載人的車</h2>
+      <p>不載人，因為它載的是浴缸，可以幫失能者洗澡。<br>
+        原鄉的排灣族奶奶，中風後臥床，十年沒碰過水，洗完澡後說她好感動，是那種會想流眼淚的感動；<br>
+        處境相同的青年，身子潛入浴缸的那一刻，豎起了拇指比出「讚」，一個手勢勝過千言萬語。<br>
+        身體的清潔，喚回身為一個人的尊嚴。<br>
+        這是，2014年，我們為屏東引進首輛到宅沐浴車的初心。<br>
+        一次愉悅的澡，一件再平凡不過的事。<br>
+        對許多失能臥床者而言，可能是唯一的願望。<br>
+        我們想再募一台車，讓仍在殷殷期盼的洗澡心願，得以實現。<br>
+      </p>
+    </div>
+  </div>
+
+  <content>
+    <div class="wrap-1" id="option1">
+      <div class="bath-content">
+        <div class="bath-content-inner">
+          <h2>等待中的洗澡心願</h2>
+          <h3 class="dialogue">家人無法協助沐浴的原因</h3>
+          <div class="bath-wrap">
+            <div class="bath">
+              <div class="bath-img"><img src="images/bath-1.png" alt="照顧者體力無法負擔"></div>
+              <div class="bath-word">
+                照顧者體力無法負擔
+              </div>
+            </div>
+            <div class="bath">
+              <div class="bath-img"><img src="images/bath-2.png" alt="三管病人移位有風險"></div>
+              <div class="bath-word">
+                三管病人移位有風險
+              </div>
+            </div>
+            <div class="bath">
+              <div class="bath-img"><img src="images/bath-3.png" alt="協助臥床家人進出浴室十分挑戰"></div>
+              <div class="bath-word">
+                協助臥床家人進出浴室十分挑戰
+              </div>
+            </div>
+          </div>
+          <h3 class="dialogue">病人長期無法沐浴的痛苦</h3>
+          <div class="bath-wrap">
+            <div class="bath">
+              <div class="bath-img"><img src="images/bath-4.png" alt="皮膚搔癢容易感染"></div>
+              <div class="bath-word">
+                皮膚搔癢容易感染
+              </div>
+            </div>
+            <div class="bath">
+              <div class="bath-img"><img src="images/bath-5.png" alt="產生異味家屬愧疚"></div>
+              <div class="bath-word">
+                產生異味家屬愧疚
+              </div>
+            </div>
+            <div class="bath">
+              <div class="bath-img"><img src="images/bath-6.png" alt="產生異味家屬愧疚"></div>
+              <div class="bath-word">
+                產生異味家屬愧疚
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <!-- 輪播 -->
+      <section class="swiper-container loading">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image:url(images/slider-1.jpg)">
+            <img src="images/slider-1.jpg" class="entity-img" />
+            <P>123132</P>
+          </div>
+          <div class="swiper-slide" style="background-image:url(images/slider-2.jpg)">
+            <img src="images/slider-2.jpg" class="entity-img" />
+          </div>
+          <div class="swiper-slide" style="background-image:url(images/slider-3.jpg)">
+            <img src="images/slider-3.jpg" class="entity-img" />
+          </div>
+
+          <div class="swiper-slide" style="background-image:url(images/slider-4.jpg)">
+            <img src="images/slider-4.jpg" class="entity-img" />
+          </div>
+          <div class="swiper-slide" style="background-image:url(images/slider-5.jpg)">
+            <img src="images/slider-5.jpg" class="entity-img" />
+          </div>
+          <div class="swiper-slide" style="background-image:url(images/slider-6.jpg)">
+            <img src="images/slider-6.jpg" class="entity-img" />
+          </div>
+          <div class="swiper-slide" style="background-image:url(images/slider-7.jpg)">
+            <img src="images/slider-7.jpg" class="entity-img" />
+          </div>
+          <div class="swiper-slide" style="background-image:url(images/slider-7.jpg)">
+            <img src="images/slider-7.jpg" class="entity-img" />
+          </div>
+          <div class="swiper-slide" style="background-image:url(images/slider-8.jpg)">
+            <img src="images/slider-8.jpg" class="entity-img" />
+          </div>
+        </div>
+        <!-- 輪播的圈圈按鈕 -->
+        <div class="swiper-pagination"></div>
+        <!-- 輪播的箭頭按鈕 -->
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+
+      </section>
+      <div class="paragraph paragraphA">
+        <h3>看見失能者家庭的困境</h3>
+        <p>
+          八年前，畢嘉士引進屏東縣首輛到宅沐浴車，實現失能者洗澡的心願。 <br>
+          由護理師、照服員、操作員組成「沐浴團隊」，駕駛專業到宅沐浴車，運用車輛配有的專業設備：熱水器、排水管、抽水馬達、組合式浴缸，只需一坪半的空間，就能為失能臥床者，完成洗頭、洗臉、全身清潔，進行傷口、管路護理，洗一個「安全、舒服」的澡。<br><br>
+          迄今我們已組建兩組到宅沐浴團隊，服務穿梭屏東縣內15個鄉鎮。<br>
+          從平地到高山，走近失能者床邊，提供沐浴服務，重拾他們的尊嚴與盼望；<br>
+          從市區到偏鄉，走進照顧者心中，撫去沉重壓力，成為他們照護上的幫助。
+        </p>
+        <div class="space-h100"></div>
+        <div class="bath-wrap .present">
+          <div class="bath">
+            <div class="bath-icon-img"><img src="images/bath-icon-1.png" alt="駛進超過160個家庭"></div>
+            <div class="bath-word">
+              駛進超過<br><span class="bath-icon-num fz-noto">160</span> 個家庭
+            </div>
+          </div>
+          <div class="bath">
+            <div class="bath-icon-img"><img src="images/bath-icon-2.png" alt="提供臥床者到宅沐浴服務4250次以上"></div>
+            <div class="bath-word">
+              提供臥床者到宅沐浴服務<br><span class="bath-icon-num fz-noto">4,250</span> 次以上
+            </div>
+          </div>
+          <div class="bath">
+            <div class="bath-icon-img"><img src="images/bath-icon-3.png" alt="駛進超過160個家庭"></div>
+            <div class="bath-word">
+              服務遍及屏東縣內<br><span class="bath-icon-num fz-noto">15</span> 個鄉鎮市
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="space-h100"></div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+    <div class="wrap-1-2">
+      <div class="paragraph paragraphA style-bg-wave">
+        <h3>八年過去，環境變遷、人口老化加劇，需求已無法全數滿足…</h3>
+        <p>
+          八根據統計，屏東縣內65歲以上失能老人、身心障礙者已超過三萬人，長照需求大，且多集中於屏東市、潮州鎮、內埔鄉等屏北、屏中區域。<br>
+          2014年畢嘉士啟動屏東到宅沐浴服務，為屏東市及屏北鄉鎮失能者的洗澡心願帶來曙光；2020年組建第二組沐浴團隊，拓展服務至屏中地區與原鄉部落。兩台車、兩組團隊，一年超過800趟服務，盡力滿足失能老人、身心障礙者、癌末病友、植物人、中風患者全身沐浴的需求。<br>
+          然而，隨著到宅沐浴服務的推動越加成熟，服務範圍拓展，我們發現目前的服務量能，已供不應求；有許多洗澡的心願，無法被實現…不論是服務既有個案，或開拓新服務對象，因車輛不足所帶來的侷限，漸漸出現；既有車輛要能穩定地提供服務，已需長期投入資源，因此募集全新一台車輛，急須更多點滴愛心的匯聚：
+        </p>
+      </div>
+      <div class="paragraph paragraphB">
+        <div class="bath-diffcult-wrap">
+          <div class="bath-diffcult">
+            <div class="bath-diffcult-img">
+              <img src="images/bath-difficult-1.png" alt="">
+            </div>
+            <div class="bath-diffcult-word">
+              <h4 class="orange">屏北地區需求量高，近半的洗澡需求，無法被實現</h4>
+              <p>
+                目前屏北地區僅一台車輛服務。每趟服務，車程加上沐浴時間需耗費1.5-2小時，一台車輛單日最高服務量為4次。
+                既有的服務個案，經評估後最需要的服務次數為每月90次，但屏北地區僅一台車輛，需求已超過單台車輛最大承載—每月平均50次服務。
+              </p>
+            </div>
+          </div>
+          <div class="bath-diffcult">
+            <div class="bath-diffcult-img">
+              <img src="images/bath-difficult-2.png" alt="">
+            </div>
+            <div class="bath-diffcult-word">
+              <h4 class="brown">每趟出車經費，入不敷出，但洗澡是尊嚴生活，重要的一環</h4>
+              <p>
+                儘管有長照給付及自付費用，但全年人事費、車輛油資及設備保養等成本，扣除收入後，每趟出車平均虧損近千元。對於失能者家庭來說，照顧負擔已沉重，不可能再將服務自付金額提高。
+                因此沐浴服務能穩定運作，我們一直是仰賴社會大眾點滴的愛心捐款支持，讓失能者得以安心地接受服務。
+
+              </p>
+            </div>
+          </div>
+          <div class="bath-diffcult">
+            <div class="bath-diffcult-img">
+              <img src="images/bath-difficult-3.png" alt="">
+            </div>
+            <div class="bath-diffcult-word">
+              <h4 class="green">作業流程需投入一定時間，服務量能已達極限</h4>
+              <p>
+                每趟沐浴服務結束，沐浴團隊需使用醫療級的消毒劑，將服務設備進行消毒；每周也需進行耗時四小時的全車清消。為確保行車安全，每月車輛檢修保養更不能少。
+                然而，進行設備清潔消毒以及車輛保養維護的時間，便無法提供服務。在車輛不足的情況下，我們時常陷入無法滿足每位服務對象最適切需求的苦惱，深感遺憾...
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="space-h100"></div>
+      </div>
+
+    </div>
+    <div class="wrap-2" id="option2">
+      <div class="hope-deco">
+        <img src="images/hope-deco.png" alt="">
+        <img src="images/hope-deco.png" alt="">
+      </div>
+      <div class="wrap2-intro">
+        <div class="wrap2-catch">
+          <img src="images/wrap2-catch.png" alt="募一台不載人的車 圓無數洗澡心願">
+        </div>
+        <p>
+          為了實現更多臥床者的洗澡心願，不願洗澡再次成為失能長輩、身障朋友的奢望… <br>
+          畢嘉士希望能再添一台到宅沐浴車，擴大服務能量，滿足屏北地區廣大需求。<br>
+          <b>讓更多生命 浴見希望</b>
+        </p>
+      </div>
+      <div class="space-h100"></div>
+      <div class="wrap2-detail-wrap">
+        <h3 class="text-center">不只是沐浴服務，更是溫暖與陪伴</h3>
+        <div class="wrap2-detail">
+          <div class="wrap2-detail-img wrap2-detail-img-1">
+            <div class="wrap2-detail-img-wrap">
+              <div class="wrap2-detail-img-inner">
+                <img src="images/wrap2-img1.jpg" alt="">
+              </div>
+              <b class="b-dialogue brown">「沒想到還能幫忙洗頭！」</b>
+            </div>
+          </div>
+          <p>
+            「沒想到還能幫忙洗頭！」賴奶奶的家人說這句話的時候，語氣充滿驚喜。因為到宅沐浴服務進駐前，想幫奶奶洗澡已困難重重，遑論洗頭。<br>
+            高齡的賴奶奶曾歷經兩次中風，十年前開始臥床。礙於家裡浴室前的門檻，輪椅進出不便，加上奶奶全身軟癱無力，坐在洗澡椅上梳洗風險高，有長達兩年的時間，僅能以擦澡的方式清潔身體，令家屬十分不捨。<br>
+            賴奶奶的家人說，洗澡的那天，奶奶因為身心舒暢，總是特別好睡。「自從有了到宅沐浴服務，家人們心裡的愧疚減少許多。」<br>
+            還沒從事這份工作之前，我從沒想過，短短一個小時的服務，竟然可以化解一個家庭的危機。雖然奶奶已經先去天堂旅行，在那最後一段人生的旅程，很榮幸可以透過沐浴服務，滿足奶奶對於尊嚴生活的渴求。<br>
+            <span class="text-right">by 沐浴團隊照服員 林雅惠</span>
+          </p>
+        </div>
+        <div class="wrap2-detail">
+          <div class="wrap2-detail-img wrap2-detail-img-2">
+            <div class="wrap2-detail-img-wrap">
+              <b class="b-dialogue brown">我覺得廖阿嬤，是一位貼心的母親</b>
+              <div class="wrap2-detail-img-inner">
+                <img src="images/wrap2-img2.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <p>
+            我覺得廖阿嬤，是一位貼心的母親。<br>
+            剛服務阿嬤的時候，我發現她腳踝有很嚴重的褥瘡傷口。阿嬤的兒子車禍腦傷留下後遺症，我直覺認為，是阿嬤不想給兒子添麻煩，才會導致壓瘡惡化。<br>
+            家庭支持力量不夠，可是，阿嬤沒有責難也沒有埋怨。面對眼前這麼一位體貼的母親，我想幫助她完成「照顧好自己」的心願。<br>
+            後來，我在每一次沐浴服務結束，協助阿嬤清理完傷口，我便會教阿嬤自己擦藥膏、自己敷棉墊。阿嬤也很聽話，每天自己換藥，傷口慢慢就好了。<br>
+            知道阿嬤有糖尿病，我每次去都會留意她有沒有按時服藥，隨口叮嚀。可能是阿嬤信任我吧，我講的話，她都會聽。<br>
+            <span class="text-right">by 沐浴團隊護理師 嚴玉娟</span>
+          </p>
+        </div>
+        <div class="wrap2-detail">
+          <div class="wrap2-detail-img wrap2-detail-img-3">
+            <div class="wrap2-detail-img-wrap">
+              <b class="b-dialogue brown">有著像朋友一樣的感情，<br>
+                我也覺得很幸福</b>
+              <div class="wrap2-detail-img-inner">
+                <img src="images/wrap2-img3.jpg" alt="">
+              </div>
+
+            </div>
+          </div>
+          <p>
+            因為服務黃爺爺的緣故，我們和他的太太，甚至他家的小狗，都混得很熟。<br>
+            每回我將沐浴車停妥，小狗便會搖著尾巴上前迎接。黃奶奶則是老早坐在門前等，一見到我們隨即露出大大的微笑。<br>
+            浴缸組裝好，我或同事會特地跑到屋外，請奶奶進屋「監工」。我們一邊洗，一邊和兩老開著無傷大雅的玩笑。他們不同住的女兒曾說：「只有你們來的時候，他們倆才會講這麼多話，才會笑得這麼開心。」<br>
+            沐浴服務結束離去前，我都會跟黃爺爺說：「阿北，下個禮拜我們還會來給您吐槽！要記得喔！」能和這對夫妻有著像朋友一樣的感情，我也覺得很幸福。<br>
+            <span class="text-right">by 沐浴團隊操作員 成游光</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="space-h100"></div>
+    </div>
+    <div class="wrap-3" id="option3">
+      <div class="wrap3-intro">
+        <div class="wrap3-catch">
+          <img src="images/wrap3-catch.png" alt="一同幫助失能者 圓滿洗澡心願">
+        </div>
+        <p>
+          感謝每一個願意分享愛的你，一人一點力，集結成好事！<br>
+          願與每位有愛的你，分享來自馬拉威小農的用心好茶，作為答謝。
+        </p>
+      </div>
+      <h3 class="dialogue">滿額禮介紹</h3>
+      <div class="donate-wrap present">
+        <div class="donate-item">
+          <div class="donate-item-img">
+            <img src="images/donate-item1.jpg" alt="">
+          </div>
+          <div class="donate-item-word">
+            <p class="item">單筆捐款3600元以上<br>
+              或 每月定捐300元 <span class="fz-14">(持續一年以上)</span></p>
+            <b class="green">贈 〈奔放熱帶〉洛神蜜桃白茶茶包單包x6
+            </b> <br>
+            <span class="fz-14">*滿額禮不累贈</span>
+          </div>
+        </div>
+        <div class="donate-item">
+          <div class="donate-item-img">
+            <img src="images/donate-item2.jpg" alt="">
+          </div>
+          <div class="donate-item-word">
+            <p class="item">單筆捐款6000元以上<br>
+              或 每月定捐500元 <span class="fz-14">(持續一年以上)</span></p>
+            <b class="green">贈 〈四茶薈萃〉經典綜合茶包組x1盒
+            </b> <br>
+            <span class="fz-14">*滿額禮不累贈</span>
+          </div>
+        </div>
+      </div>
+      <div class="space-h100"></div>
+      <div class="donate-wrap">
+        <div class="donate-step">
+          <h3 class="dialogue">請選擇捐款模式</h3>
+          <div class="donate-style-wrap noWrap">
+            <label class="donate-style style1">
+              <input type="radio" name="donate-style">
+              <div class="donate-style-img"></div>
+              <p>單次捐款</p>
+            </label>
+            <label class="donate-style style2">
+              <input type="radio" name="donate-style">
+              <div class="donate-style-img"></div>
+              <p>每月捐款</p>
+            </label>
+          </div>
+        </div>
+        <div class="donate-step">
+          <h3 class="dialogue">請選擇捐款金額</h3>
+          <div class="donate-style-wrap">
+            <label class="donate-money">
+              <input type="radio" name="donate-money">
+              <p>300元</p>
+            </label>
+            <label class="donate-money">
+              <input type="radio" name="donate-money">
+              <p>500元</p>
+            </label>
+            <label class="donate-money">
+              <input type="radio" name="donate-money">
+              <p>3,600元</p>
+            </label>
+            <label class="donate-money">
+              <input type="radio" name="donate-money">
+              <p>6,000元</p>
+            </label>
+          </div>
+          <div class="donate-style-wrap money-customizer">
+            <p class="customizer">或自行輸入捐款金額</p>
+            <input type="text" name="" id="">
+            <span class="fz-14">*輸入金額至少100元</span>
+          </div>
+        </div>
+      </div>
+      <p class="donate-attention">
+        ．到宅沐浴車上路後，定期捐款將持續支應到宅沐浴服務經費缺口<br>
+        ．定期定額捐款人若要停止捐款，請主動來電或來信告知
+      </p>
+      <div class="space-h85"></div>
+      <!-- <button>立即捐款</button> -->
+      <a class="button" href="index2.html">立即捐款</a>
+    </div>
+    <div class="space-h100"></div>
+
+    <div class="wrap-4" id="option4">
+
+      <div class="run-film">
+        <img class="run-film-gif" src="images/runrun768.gif" alt="">
+      </div>
+      <script>
+        // 更換車跑的動畫RWD
+        let runGif = document.querySelector('.run-film-gif')
+        if (window.innerWidth > 768) {
+          runGif.src = 'images/runrun.gif'
+        }
+      </script>
+      <div class="wrap-4-content">
+        <h2 class="orange">關於畢嘉士沐浴團隊</h2>
+        <p>畢嘉士到宅沐浴服務團隊，由護理師、操作員、照服員組成，各有專長，各司其職。</p>
+        <div class="personnel-wrap">
+          <div class="personnel">
+            <div class="personnel-inner">
+              <div class="personnel-img">
+                <img src="images/personnel-1.png" alt="">
+              </div>
+              <div class="personnel-title">
+                護理師
+                <div class="triangle"></div>
+              </div>
+            </div>
+            <p>
+              於服務前後進行生命徵象及身體評估，浴後協助病患傷口護理及管路的清潔消毒。
+            </p>
+          </div>
+          <div class="personnel">
+            <div class="personnel-inner">
+              <div class="personnel-img">
+                <img src="images/personnel-2.png" alt="">
+              </div>
+              <div class="personnel-title">
+                操作員
+                <div class="triangle"></div>
+              </div>
+            </div>
+            <p>
+              兼任駕駛，出車與下班前進行全車消毒，平時還肩負車輛大小零件保養及維護工作。
+            </p>
+          </div>
+          <div class="personnel">
+            <div class="personnel-inner">
+              <div class="personnel-img">
+                <img src="images/personnel-3.png" alt="">
+              </div>
+              <div class="personnel-title">
+                照服員
+                <div class="triangle"></div>
+              </div>
+            </div>
+            <p>
+              與操作員配搭，一起組裝浴槽、恆溫供水及排水系統，並協助沐浴使用者移位。
+            </p>
+          </div>
+        </div>
+        <p class="text-center intro">屏東，夏天熱、冬天不冷，幾乎天天都出大太陽。<br>
+          冬天執行服務，微微沁汗；夏天出勤，汗濕全身。<br>
+          畢嘉士屏北到宅沐浴團隊成員：嚴玉娟、成游光、林雅惠，三人卻不以為苦。<br>
+          因為這份工作，對他們來說，是職業，更是志業。</p>
+      </div>
+
+      <div class="wrap-4-content">
+
+        <div class="owl-carousel owl-theme banner-sizeL">
+          <div class="item">
+            <div class="item-img">
+              <img src="images/slide-personnel-1.jpg" alt="">
+            </div>
+            <p>
+              比起照護的辛苦，我覺得照顧者更擔心自己沒照顧好病人受到指責。身為一名護理師，我能做的就是協助照顧者把照護工作做好，分擔他的壓力。 <br>
+              <span>—— 護理師 嚴玉娟</span>
+            </p>
+            <div class="intro-detail">
+              玉娟過去在醫院擔任專科護理師。從臨床走進社區，她發現能做的事情，其實不亞於醫院，因為在「全人關懷」上她有更多可以著力的地方。
+              <br>
+              每服務一個新案，玉娟會先觀察服務對象以及照顧者的「生活」，找出那些難以言說的「需要」。她期許自己能成為這些需要的幫助。從事一份工作，同時做到自我實現，玉娟覺得她的人生變得踏實有意義。
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img src="images/slide-personnel-2.jpg" alt="">
+            </div>
+            <p>
+              這是人生必經的路，就抱持這樣態度去服務他們，讓他們愉快，洗個充實舒服的澡。<br>
+              <span>—— 操作員 成遊光</span>
+            </p>
+            <div class="intro-detail">
+              成哥年輕時幫小孩吹頭髮，現在則是沐浴團隊的吹頭髮達人。沐浴工作做久了，成哥有個職業病，每天出門前會拿出手機查詢天氣。因為擔心服務對象受寒，他會根據當天的天氣，與護理師討論水溫的設定。
+              <br>
+              對成大哥來說，操作員的角色，不僅僅是把設備看顧好，更要把服務對象放在心上。
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-img">
+              <img src="images/slide-personnel-3.jpg" alt="">
+            </div>
+            <p>
+              擦澡和洗澡真的不一樣，我們一邊幫忙洗，有的長輩也會一邊幫自己搓，一定是感覺很舒服吧，能幫上一點忙，是我的榮幸。<br>
+              <span>—— 照服員 林雅惠</span>
+            </p>
+            <div class="intro-detail">
+              雅惠曾照顧過生病的家人，對於家屬的心情與辛苦感同身受。每次沐浴車出任務，她總是提醒自己要帶著笑容去，如果有時間一定要和家屬聊聊天。
+              <br>
+              還有口語能力的失能長輩，因為雅惠待人親切，也常不自覺向她傾吐心事。能從事一份和人心如此靠近的工作，是件幸福的事，雅惠說，如果可以，她想一直做到退休。
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="wrap-5" id="option5">
+      <div class="wrap-5-content">
+        <h2 class="orange">認識畢嘉士</h2>
+        <p>
+          「畢嘉士基金會」名稱取自曾來台行醫30年的挪威籍醫師畢嘉士；希望繼承他「永不放棄」的信念，傳承解決問題的熱忱與決心，盡其所能去看顧每一個生命的尊嚴。延續畢嘉士醫師對屏東偏鄉的愛與關懷，自創立以來，即深耕屏東在地，為弱勢貢獻己力。<br>
+          看見屏東長輩無力自主照顧的困境，整合社工、護理、復健、營養等各種專業，以團隊合作的方式，透過延緩長輩身體健康的退化、提供失能/失智症長輩保有尊嚴的照顧；創立以來逐步開展居家服務、到宅沐浴，為失能長輩提供「居家式照顧」。2016年由廢棄拖吊場改建而成的「永大多元照顧中心」正式營運，成為畢嘉士團隊提供「健康促進」和「社區式照顧」的最佳據點。自此，畢嘉士「從預防到照顧」的連續性服務架構逐漸成形，並穩健推動各項服務方案，讓不管健康或失能的長輩都能獲得服務，家屬照顧者也得以喘息。<br>
+          2021年隨著服務方案穩定推動及開展創新計劃，拓展服務範圍至潮州鎮，承辦運營潮州幸福館，建構多元樂齡健促的新模式，開辦鎮上首處日照服務—「光春日間照顧服務中心」。期盼透過空間建立關係網絡，用關係守護社區；不論需要被照顧的長者，還是退休的熟齡族，都能一起開創第三人生階段的幸福。<br>
+          更多詳細介紹，歡迎瀏覽<a href="https://bjorgaas.org.tw/" target="_blank" class="orange">基金會網站</a>。</p>
+      </div>
+      <div class="wrap-5-img-wrap">
+        <div class="wrap-5-img">
+          <img src="images/intro-1.jpg" alt="">
+        </div>
+        <div class="wrap-5-img">
+          <img src="images/intro-2.jpg" alt="">
+        </div>
+        <div class="wrap-5-img">
+          <img src="images/intro-3.jpg" alt="">
+        </div>
+        <div class="wrap-5-img">
+          <img src="images/intro-4.jpg" alt="">
+        </div>
+        <div class="wrap-5-img">
+          <img src="images/intro-5.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+  </content>
+  <footer>
+    <div class="footer-content">
+
+      <div class="footer-detail">
+
+        <div class="logo-footer">
+          <img src="images/logo.svg">
+        </div>
+        <div class="footer-contact">
+          <div class="tel">服務電話：02-8786-9661</div>
+          <div class="mail">服務信箱：service@bjorgaas.org.tw</div>
+          <div class="add">地址：110台北市信義區忠孝東路五段358號7樓(台北辦公室) / 900屏東市永大路70號(屏東辦公室)</div>
+          <div class="copyright">© 2022 bjorgaas.org.tw Taiwan All Rights Reserved.</div>
+        </div>
+
+      </div>
+
+
+
+      <div class="footer-icon">
+        <a href="https://www.facebook.com/bjorgaas.org.tw/" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://bjorgaas.org.tw/" target="_blank">
+          <i class="far fa-globe"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- JS引入 -->
+  <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+
+  <!-- 錨點 -->
+  <script type="text/javascript" src="js/flymain.js"></script>
+  <script type="text/javascript" src="js/flymain2.js"></script>
+  <script>
+    // let docHeight = $(document).height();
+    // let scrollTop3 = $(window).scrollTop();
+    // var canvasHeight2 = $('#animation_container').height();
+    // let BGTop2 = worldHeight - winHeight + canvasTop + 20
+    // console.log('BGTop2', BGTop2)
+    // console.log(`scrollTop:${scrollTop3}  BGTop2:${BGTop2}  }`)
+
+  </script>
+
+
+  <!-- fixed立即捐款按鈕出現時機 -->
+  <script>
+    let donateNow = document.querySelector('.donateNow')
+
+    $(window).scroll(function () {
+      if (
+        $(window).scrollTop() >= $("#option1").offset().top) {
+        donateNow.style.display = 'block'
+      } else {
+        donateNow.style.display = 'none'
+      }
+    })
+  </script>
+
+
+
+  <!-- 動畫 -->
+  <script src="js/createjs.min.js"></script>
+  <script src="js/car1-11.js"></script>
+  <script src="js/main1-11.js"></script>
+  <script>
+
+    let app = document.querySelector('#app')
+    let option0 = document.querySelector('#option0')
+    let content = document.querySelector('content')
+    let footer = document.querySelector('footer')
+    // 這是底圖bg上面加的空白高度
+    let adjustBlank = document.querySelector('.adjust-blank')
+
+    app.style.display = 'block'
+    option0.style.display = 'none'
+    content.style.display = 'none'
+    footer.style.display = 'none'
+
+    var scrollTop = $(window).scrollTop();
+    var worldHeight = $('.world').height();
+    var winHeight = $(window).height();
+    var canvasTop = $(".world").offset().top | 0;
+    let appHeight = $('#app').height();
+    // let changeBG = appHeight - winHeight + 243
+    // console.log('scrollTop', scrollTop)
+    // console.log('worldHeight', worldHeight)
+    // console.log('winHeight', winHeight)
+    // console.log('canvasTop', canvasTop)
+    // console.log('appHeight', appHeight)
+    // console.log('changeBG', changeBG)
+
+    let nav = document.querySelector('nav')
+
+    let BGTop = worldHeight - winHeight + canvasTop + 20
+
+    //設定超過畫布再顯示NAV
+
+    $(window).scroll(function () {
+      var scrollTop2 = $(window).scrollTop();
+      console.log('BGTop', BGTop)
+      console.log('scrollTop2', scrollTop2)
+      if (scrollTop2 > BGTop) {
+        nav.style.display = 'flex'
+      } else {
+        nav.style.display = 'none'
+      }
+    })
+    function confirmBG() {
+      let scrollTop = $(window).scrollTop();
+      // console.log('scrollTop', scrollTop)
+      // if (scrollTop >= 1580 - winHeight) {
+
+      let ifAniRun = false
+      if (scrollTop >= BGTop - 20) {
+        if (window.innerWidth <= 768) {
+          adjustBlank.style.height = BGTop + 61.05 - 20 + 'px'
+          // adjustBlank.style.height = scrollTop + window.innerWidth * 2.486979167 * 0 + 61 + 'px'
+
+        } else if (window.innerWidth > 768) {
+          adjustBlank.style.height = BGTop - window.innerWidth * 1.156661789 * 0.142 + 69 + 'px'
+
+          // console.log('adjustBlank', adjustBlank.style.height)
+        }
+        // console.log(123131123)
+        app.style.opacity = '0';
+        app.style.display = 'none'
+        option0.style.display = 'block'
+        content.style.display = 'block'
+        footer.style.display = 'block'
+        // option0.style.opacity = '0';
+        //1580-1035+69+69
+
+      } else {
+        // adjustBlank.style.height = 0 + 'px'
+        app.style.opacity = '1';
+        app.style.display = 'block'
+        option0.style.display = 'none'
+        content.style.display = 'none'
+        footer.style.display = 'none'
+        adjustBlank.style.height = 0 + 'px'
+      }
+
+    }
+    confirmBG()
+
+    $(window).scroll(function () {
+      confirmBG()
+    })
+
+    let worldContent = document.querySelector('.world-content')
+    if (window.innerWidth > 768) {
+      worldContent.style.top = BGTop + window.innerWidth * 1.156661786 * 0.4 - 69 + 'px'
+    } else {
+      worldContent.style.top = BGTop + window.innerWidth * 2.486979167 * 0.6 - 61 + 'px'
+
+    }
+
+    // wrap-1等待中的洗澡心願的margin-top位置
+
+    let wrap1 = document.querySelector('.wrap-1')
+    // 這是底圖bg上面加的空白高度
+    let adjustBlank2 = document.querySelector('.adjust-blank')
+    var scrollTop2 = $(window).scrollTop();
+
+
+    function appWordPosition() {
+      if (window.innerWidth > 768) {
+        let appBGHeight = window.innerWidth * 0.8543
+        let appAllHeight = appBGHeight * 0.75 + $(".app-deco-content").height()
+        // 算出多出來的那一塊: 全部高度－底圖高度
+        let appMore = appAllHeight - appBGHeight
+        wrap1.style.marginTop = appBGHeight * 0.1 + 'px'
+        // wrap1.style.marginTop = 0 + 'px'
+
+
+        // console.log('appBGHeight', appBGHeight)
+        // console.log('appAllHeight', appAllHeight)
+        // console.log('appMore', appMore)
+      } else {
+        let appBGHeight = window.innerWidth * 1.50390625
+        let appAllHeight = appBGHeight * 0.75 + $(".app-deco-content").height()
+        // 算出多出來的那一塊: 全部高度－底圖高度
+        let appMore = appAllHeight - appBGHeight
+        wrap1.style.marginTop = 500 + 'px'
+      }
+    }
+    appWordPosition()
+    $(window).resize(function () {
+      appWordPosition()
+    })
+  </script>
+
+
+  <!-- 工作日常輪播 -->
+  <script src='js/swiper.min.js'></script>
+  <script src="js/bath-slider.js"></script>
+
+  <!-- 人員介紹輪播 -->
+  <script src="js/owl.carousel.min.js"></script>
+  <script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+      items: 1,
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      nav: true,
+      navText: ["<i class='fal fa-chevron-left'><\/i>", "<i class='fal fa-chevron-right'><\/i>"],
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true
+    });
+    $('.play').on('click', function () {
+      owl.trigger('play.owl.autoplay', [1000])
+    })
+    $('.stop').on('click', function () {
+      owl.trigger('stop.owl.autoplay')
+    })
+  </script>
+
+
+
+  <!-- navigation -->
+  <script type="text/javascript">
+    var navInner = document.getElementsByClassName('nav-inner')[0];
+    var menu = document.getElementById('menu');
+    var body = document.getElementsByClassName('body')[0];
+    var menuBack = document.getElementsByClassName('menuBack')[0];
+
+    menu.addEventListener('click', function () {
+      navInner.classList.toggle("open");
+      menu.classList.toggle("menu-close");
+      body.classList.toggle('menuStock');
+      menuBack.classList.toggle('open');
+    });
+
+
+    // 手機版本下, 點選選單按鈕同步將nav關閉
+    var navLiInner = document.getElementsByClassName('nav-li-inner');
+
+
+    for (var z = 0; z < navLiInner.length; z++) {
+      navLiInner[z].addEventListener('click', MenuCloseMobile);
+
+      function MenuCloseMobile() {
+        navInner.classList.remove("open");
+        menu.classList.remove("menu-close");
+        body.classList.remove('menuStock');
+        menuBack.classList.remove('open');
+      }
+    }
+  </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

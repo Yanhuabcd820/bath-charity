@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+div,
+footer,
+textarea {
+	font-family: '微軟正黑體', sans-serif;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+img {
+	vertical-align: middle;
+	width: 100%;
+}
+
+b {
+	font-weight: bold;
+}
+
+input {
+	/* -webkit-appearance: none; */
+	/* Safari 和 Chrome，常用於iOS下移除內建樣式 */
+	/* -moz-appearance: none; */
+	/* FireFox */
+	/* appearance: none; */
+}
+
+:root {
+	--green: #00a0a4;
+	--brown: #8e6600;
+	--orange: #ff7247;
+	--gray: #999;
+}
+
+.green {
+	color: var(--green)
+}
+
+.brown {
+	color: var(--brown)
+}
+
+.orange {
+	color: var(--orange)
+}
+
+.fz-noto {
+	font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 32px;
+	color: var(--brown);
+}
+
+h3 {
+	font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 28px;
+	color: var(--brown);
+	margin-bottom: 18px;
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 18px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 28px;
+	text-align: justify;
+	margin-bottom: 8px;
+	width: 100%;
+}
+
+@media screen and (min-width:768px) {
+	p {
+		font-size: 17px;
+		line-height: 32px;
+		margin-bottom: 10px;
+	}
+
+	h2 {
+		font-size: 32px;
+		line-height: 39px;
+	}
+
+	h3 {
+		font-size: 25px;
+		line-height: 30px;
+		margin-bottom: 30px;
+	}
+
+	h4 {
+		font-size: 22px;
+		line-height: 30px;
+		margin-bottom: 20px;
+	}
+}
+
+.btn-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+button,
+.button {
+	border: 1px solid var(--green);
+	background-color: var(--green);
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 30px;
+	color: #fff;
+	padding: 12px 45px;
+	cursor: pointer;
+	transition: .5s;
+	margin: 0px 10px;
+}
+
+button:hover,
+.button:hover {
+	border: 1px solid var(--green);
+	background-color: #fff;
+	color: var(--green);
+}
+
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+
+select {
+	position: relative;
+	background: url(../images/select-form-arrow.svg) no-repeat;
+	background-position: right center;
+}
